@@ -48,7 +48,11 @@ Exercise 4: Access an array element
 Complete Exercise 4 in the space below:
 */
 // shortcut function and conditional ternary exprition
-foods.forEach(food => food === 'pizza' && (favFood = food));
+//foods.forEach(food => food === 'pizza' && (favFood = food));
+//using foreach with if statement
+foods.forEach(food => if (food === 'pizza') {
+favFood = food
+}
 
 // for (let i = 0; i<foods.length;i++){
    // if (foods[i] === 'pizza'){
